@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Unas Aleansa
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Unas
+last_name: Aleansa
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,98 +23,97 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Civil Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: None
+    url: 
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:unas.aap@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: https://twitter.com/
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Structure
+  - Transport
+  - Hidro
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: PhD Civil Engineering
+    institution: Bikini Bottom University
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2030-10-01
+    date_end: 2033-06-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Thesis on mind
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+  - area: M.Eng Civil Engineering
+    institution: Monster University
     icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+    date_start: 2027-09-01
+    date_end: 2029-05-31
     summary: |
       GPA: 4.0/4.0
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
+      Specialized in nothing.
+  - area: B.Eng Civil Engineering
+    institution: UMJ
     icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+    date_start: 2022-09-01
+    date_end: 2026-05-31
     summary: |
       GPA: 3.9/4.0
 
-      Minored in Mathematics. President of AI Club.
+      Forced by Physics.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Freelance Engineer
+    company_name: JKL
+    company_url: ''
     icon: ''
     date_start: 2020-01-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      Contributing 5 projects.
+  - position: Public Relations Intern
+    company_name: HUMAS UMJ
+    company_url: ''
     icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2023-06-01
+    date_end: 2025-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Worked on Staffsus Zaenuri.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: Nothing
         description: ''
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
+      - name: Learning
         description: ''
         percent: 100
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Scrolling
         description: ''
         percent: 85
         icon: cloud
@@ -136,9 +135,9 @@ skills:
         icon: book-open
 
 languages:
-  - name: English
+  - name: Indonesia
     percent: 100
-  - name: Spanish
+  - name: English
     percent: 50
 
 # Awards.
@@ -169,4 +168,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Unas Aleansa is a civil engineering student at Universitas Muhammadiyah Jember who is dedicated and passionate about her education and career. Unas has a deep interest in construction and infrastructure, and a passion for contributing to the development of a better society. Besides being a civil engineering student, Unas also embraces creativity and expression through visual arts and design. With her passion, dedication, and creativity, Unas is ready to explore the world of civil engineering and visual arts, and make a positive contribution to the development of society and the environment.
