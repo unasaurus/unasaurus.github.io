@@ -27,7 +27,7 @@ role: Civil Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: None
+  - name: engineer in progrees
     url: 
 
 # Social network links
@@ -98,7 +98,7 @@ work:
     date_start: 2023-06-01
     date_end: 2025-12-31
     summary: |
-      Worked on Staffsus Zaenuri.
+      Worked on Staffsus Zainuri.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
