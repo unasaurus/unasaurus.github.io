@@ -170,6 +170,4 @@ awards:
 
 Hi, I’m Unas Aleansa. I’m a Civil Engineering student diving into earthquake engineering, fueled by curiosity, field experience, and way too many late-night writing sprees.
 
-This site is basically a collection of things I enjoy working on: my study notes, engineering thoughts, field stories, and bits of my work as a campus journalist. You’ll also find some creative stuff here, like self-development content and small writing or analysis projects I make for fun.
-
-Feel free to scroll through everything from the start, or jump right into whatever you like — engineering, writing, or personal projects. Down below, I’ve gathered my experiences, favorite works, research interests, and resources I’ve built along the way.
+This site is where I share the things I’m working on: engineering notes, field stories, journalism pieces, and a few creative projects like self-development content and small writing experiments. Feel free to explore anything that catches your interest.
