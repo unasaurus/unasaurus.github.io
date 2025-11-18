@@ -1,9 +1,31 @@
 <footer class="site-footer">
-  <div class="container">
-    {{ if site.Copyright }}
-    <p class="powered-by text-center text-sm opacity-80 py-1">
-      {{ replace site.Copyright "{year}" now.Year | markdownify }}
-    </p>
-    {{ end }}
+  {{ if site.Params.footer.text }}
+  <div class="py-6">
+    {{ site.Params.footer.text | markdownify | emojify }}
   </div>
+  {{ end }}
+
+  {{ $show_copyright := site.Params.footer.copyright.show | default true }}
+  {{ $license := site.Params.footer.copyright.license }}
+  
+  {{ if $show_copyright }}
+  <div class="container pt-3">
+    <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+      <div class="mb-3 mb-lg-0">
+        {{ with $license.enable }}
+        <a href="{{ $license.link | default "https://creativecommons.org/licenses/by-nc-nd/4.0" }}" rel="noopener noreferrer" target="_blank">
+          <img alt="Creative Commons License" style="border-width: 0; height: 25px !important" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-nd.svg" />
+        </a><br>
+        {{ end }}
+        {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify }}{{ end }}
+      </div>
+
+      {{ if site.Params.features.map.provider }}
+      <div class="mb-3 mb-lg-0">
+        <a href="{{ site.Params.features.map.privacy_url | default "/privacy/" }}" class="link-secondary">Privacy</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
 </footer>
