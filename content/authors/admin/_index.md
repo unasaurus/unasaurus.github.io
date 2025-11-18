@@ -168,4 +168,5 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Unas Aleansa is a civil engineering student at Universitas Muhammadiyah Jember who is dedicated and passionate about her education and career. Unas has a deep interest in construction and infrastructure, and a passion for contributing to the development of a better society. Besides being a civil engineering student, Unas also embraces creativity and expression through visual arts and design. With her passion, dedication, and creativity, Unas is ready to explore the world of civil engineering and visual arts, and make a positive contribution to the development of society and the environment.
+Unas Aleansa is a civil engineering student at Universitas Muhammadiyah Jember who is dedicated and passionate about her education and career. Unas has a deep interest in construction and infrastructure, and a passion for contributing to the development of a better society. 
+Besides being a civil engineering student, Unas also embraces creativity and expression through visual arts and design. With her passion, dedication, and creativity, Unas is ready to explore the world of civil engineering and visual arts, and make a positive contribution to the development of society and the environment.
