@@ -168,6 +168,6 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Hi, I’m Unas Aleansa. I’m a Civil Engineering student diving into earthquake engineering, fueled by curiosity, field experience, and way too many late-night writing sprees.
+I’m Unas Aleansa. I’m a Civil Engineering student diving into earthquake engineering, fueled by curiosity, field experience, and way too many late-night writing sprees.
 
 This site is where I share the things I’m working on: engineering notes, field stories, journalism pieces, and a few creative projects like self-development content and small writing experiments. Feel free to explore anything that catches your interest.
