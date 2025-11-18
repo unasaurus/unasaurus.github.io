@@ -37,7 +37,7 @@ profiles:
     url: 'mailto:unas.aap@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/
+    url: https://threads.com/
   - icon: brands/github
     url: https://github.com/
   - icon: brands/linkedin
@@ -48,9 +48,9 @@ profiles:
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Structure
-  - Transport
-  - Hidro
+  - Earthquake-Resistant Design
+  - Sustainable Construction
+  - Building Information Modeling (BIM)
 
 education:
   - area: PhD Civil Engineering
@@ -168,5 +168,8 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Unas Aleansa is a civil engineering student at Universitas Muhammadiyah Jember who is dedicated and passionate about her education and career. Unas has a deep interest in construction and infrastructure, and a passion for contributing to the development of a better society. 
-Besides being a civil engineering student, Unas also embraces creativity and expression through visual arts and design. With her passion, dedication, and creativity, Unas is ready to explore the world of civil engineering and visual arts, and make a positive contribution to the development of society and the environment.
+Hi, I’m Unas Aleansa. I’m a Civil Engineering student diving into earthquake engineering, fueled by curiosity, field experience, and way too many late-night writing sprees.
+
+This site is basically a collection of things I enjoy working on: my study notes, engineering thoughts, field stories, and bits of my work as a campus journalist. You’ll also find some creative stuff here, like self-development content and small writing or analysis projects I make for fun.
+
+Feel free to scroll through everything from the start, or jump right into whatever you like — engineering, writing, or personal projects. Down below, I’ve gathered my experiences, favorite works, research interests, and resources I’ve built along the way.
