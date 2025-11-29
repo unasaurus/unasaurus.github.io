@@ -1,0 +1,22 @@
+[[skills]]
+category = "Software & Tools"
+list = "ETABS, SAP2000, AutoCAD, Revit (dasar), MATLAB, Python"
+
+[[skills]]
+category = "Analisis & Desain"
+list = "Analisis Struktur, Pushover Analysis, Desain Tahan Gempa, BIM basics, Project Documentation"
+
+[[skills]]
+category = "Komunikasi & Lainnya"
+list = "Technical Writing, Public Speaking, Video Production, Documentation"
+
+[[education]]
+date = "2021 - Sekarang"
+degree = "S1 Teknik Sipil"
+institution = "Universitas Muhammadiyah Jember"
+gpa = "3.5 / 4.0"
+
+[[education]]
+date = "2018 - 2020"
+degree = "SMA/MA"
+institution = "Jurusan IPA"

@@ -1,0 +1,170 @@
+{{ define "main" }}
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h1>{{ .Site.Data.profile.headline }}</h1>
+                <p><strong></strong></p>
+                {{ .Site.Data.profile.intro | markdownify }}
+
+                <div class="about-details">
+                    <div class="research-interests">
+                        <h3>Bidang Minat Penelitian</h3>
+                        <ul>
+                            {{ range .Site.Data.profile.interests }}
+                            <li>{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                    <div class="certifications">
+                        <h3>Sertifikasi &amp; Pelatihan</h3>
+                        <ul>
+                            {{ range .Site.Data.profile.certifications }}
+                            <li>{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="about-photo">
+                <img src="{{ .Site.Data.profile.image }}" alt="Foto {{ .Site.Params.author }}">
+                <p style="margin-top:1rem; font-weight:700; font-size:1.1rem;">{{ .Site.Params.author }}</p>
+                <p style="margin-top:0.2rem; color:#555;">Mahasiswa Teknik Sipil</p>
+                <div class="social-links">
+                    <a href="https://instagram.com/unasaleansa" target="_blank" aria-label="Instagram">IG</a>
+                    <a href="https://youtube.com/@mindflicks" target="_blank" aria-label="YouTube">YT</a>
+                    <a href="https://github.com/username" target="_blank" aria-label="GitHub">GH</a>
+                    <a href="https://linkedin.com/in/username" target="_blank" aria-label="LinkedIn">LI</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education">
+    <div class="container">
+        <h2>Pendidikan & Keahlian </h2>
+        <div class="education-skills-grid">
+            <div class="skills-container">
+                <h3>Keahlian Teknis</h3>
+                {{ range .Site.Data.education.skills }}
+                <div class="skill-category">
+                    <h4>{{ .category }}</h4>
+                    <p class="skill-list">{{ .list }}</p>
+                </div>
+                {{ end }}
+            </div>
+            <div class="education-list">
+                <h3>Riwayat Pendidikan</h3>
+                {{ range .Site.Data.education.education }}
+                <div class="education-item">
+                    <div class="date">{{ .date }}</div>
+                    <h3>{{ .degree }}</h3>
+                    <p><strong>{{ .institution }}</strong></p>
+                    {{ if .gpa }}<p>GPA Saat Ini: <strong>{{ .gpa }}</strong></p>{{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience">
+    <div class="container">
+        <h2>Pengalaman </h2>
+        <div class="experience-content">
+            <div class="experience-list">
+                {{ range .Site.Data.experience.items }}
+                <div class="experience-item">
+                    <div class="date">{{ .date }}</div>
+                    <h3>{{ .role }}</h3>
+                    {{ if .company }}<p><strong>{{ .company }}</strong></p>{{ end }}
+                    <p>{{ .description }}</p>
+                </div>
+                {{ end }}
+            </div>
+            <div class="experience-summary">
+                <h3>Ringkasan Pengalaman</h3>
+                <p>{{ .Site.Data.experience.summary.text }}</p>
+                <div class="buttons" style="gap:0.4rem; margin-top:1rem;" style="gap:0.4rem;">
+                    <a href="{{ .Site.Data.experience.summary.linkedin }}" target="_blank" style="text-decoration:none; font-weight:600; color:#007bff;">See in LinkedIn</a>
+                    <a href="{{ .Site.Data.experience.summary.resume }}" target="_blank" style="text-decoration:none; font-weight:600; color:#007bff;">Download My Resume</a>
+                    <a href="#experience" style="text-decoration:none; font-weight:600; color:#007bff;">All Experience</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project Section -->
+<section id="project">
+    <div class="container">
+        <h2>Proyek </h2>
+        {{ range .Site.Data.projects.items }}
+        <div class="project-item">
+            <div class="project-content">
+                {{ if .tags }}
+                <div class="project-meta">
+                    {{ range .tags }}
+                    <span class="project-tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+                <h3>{{ .title }}</h3>
+                <p>{{ .description }}</p>
+                <p class="project-meta-simple" style="color:#555; font-size:0.9rem; margin:0.6rem 0 1rem;">{{ .year }} • {{ .tools }} • {{ .status }}</p>
+                <a href="{{ .link }}" class="btn-outline">Baca Selengkapnya</a>
+            </div>
+            <div class="project-image">
+                <img src="{{ .image }}" alt="{{ .title }}">
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Publications Section -->
+<section id="publications">
+    <div class="container">
+        <h2>Publikasi &amp; Tulisan </h2>
+        {{ range .Site.Data.publications.items }}
+        <div class="publication-item">
+            <div class="publication-authors"><strong>{{ .authors }}</strong></div>
+            <div class="publication-header">
+                <div class="publication-info">
+                    <h3>{{ .title }}</h3>
+                    <div class="publication-meta">
+                        <span class="publication-badge {{ .badge_class }}">{{ .type }}</span>
+                        <span class="publication-badge {{ .badge_class }}">{{ .year }}</span>
+                        <span class="publication-badge {{ .badge_class }}">🔗 DOI: {{ .doi }}</span>
+                    </div>
+                </div>
+            </div>
+            <p>{{ .description }}</p>
+            <a href="{{ .link }}" class="btn-download pdf-link" download>PDF</a>
+            <div class="citation-style">{{ .citation }}</div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Mari Terhubung! </h2>
+        <div class="contact-content" style="text-align:left; max-width:600px; margin:0 auto;">
+            <p class="contact-intro">Untuk keperluan akademik, penelitian, atau kolaborasi, silakan hubungi saya melalui kontak berikut:</p>
+            <ul style="list-style:none; padding-left:0; margin-top:1.2rem; line-height:1.9;">
+                <li><strong>Email:</strong> <a href="mailto:unasaleansa@gmail.com">unasaleansa@gmail.com</a></li>
+                <li><strong>Telepon:</strong> <a href="tel:+6281234567890">+62 812-3456-7890</a></li>
+                <li><strong>Lokasi:</strong> Jember, Jawa Timur, Indonesia</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+{{ end }}

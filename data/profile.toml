@@ -1,0 +1,23 @@
+headline = "Yo, come on in"
+intro = """
+Saya adalah mahasiswa Teknik Sipil Universitas Muhammadiyah Jember dengan minat kuat pada rekayasa gempa, analisis struktur, dan performa bangunan pasca-gempa. Aktif sebagai jurnalis Humas Unmuh Jember dan bekerja paruh waktu di bidang kontraktor teknik transportasi.
+
+Kombinasi teknik dan komunikasi membuat saya mampu menganalisis isu teknis dan menyampaikannya secara jelas ke audiens non-teknis.
+"""
+
+interests = [
+    "Earthquake Engineering",
+    "Seismic Performance & Pushover Analysis",
+    "Structural Dynamics",
+    "Design of RC Structures (SNI)",
+    "Sustainable Infrastructure"
+]
+
+certifications = [
+    "Pelatihan ETABS & SAP2000 Dasar",
+    "Pelatihan AutoCAD 2D/3D",
+    "Webinar Mitigasi Bencana (BMKG)",
+    "Workshop Penulisan Berita Akademik"
+]
+
+image = "https://via.placeholder.com/300x400/0f1724/ffffff?text=Unas+Aleansa"

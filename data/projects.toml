@@ -1,0 +1,28 @@
+[[items]]
+title = "Pushover Analysis — Kapasitas Struktur"
+description = "Analisis pushover pada model beton bertulang untuk menentukan kapasitas geser dan mekanisme keruntuhan. Hasil memberikan insight pada desain retrofitting dan rekomendasi peningkatan performa seismik."
+image = "https://via.placeholder.com/600x400/007bff/ffffff?text=Pushover+Analysis"
+year = "2024"
+tools = "ETABS/SAP2000"
+status = "Selesai"
+link = "#"
+
+[[items]]
+title = "Perencanaan Struktur Tahan Gempa - Hotel XYZ (Skripsi)"
+description = "Perencanaan struktur hotel berdasarkan SNI 1726:2019 & SNI 2847:2019, termasuk kajian post-disaster performance untuk menilai fungsi bangunan setelah kejadian gempa."
+image = "https://via.placeholder.com/600x400/0f1724/ffffff?text=Hotel+XYZ+Design"
+year = "2024"
+tools = "ETABS/SAP2000"
+status = "Selesai"
+link = "#"
+tags = ["Skripsi", "SNI"]
+
+[[items]]
+title = "Desain Drainase Skala Mikro"
+description = "Desain drainase terintegrasi untuk kawasan permukiman yang mengurangi risiko banjir dan memanfaatkan air hujan untuk kebutuhan non-konsumsi."
+image = "https://via.placeholder.com/600x400/28a745/ffffff?text=Drainase+Design"
+year = "2024"
+tools = "ETABS/SAP2000"
+status = "Selesai"
+link = "#"
+tags = ["Drainase", "Community"]

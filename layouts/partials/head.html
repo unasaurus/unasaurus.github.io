@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Title }}</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="{{ .Site.Params.description }}">
+<meta name="keywords" content="{{ .Site.Params.keywords }}">
+<meta name="author" content="{{ .Site.Params.author }}">
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Site.Params.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Site.BaseURL }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.social.image }}">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Site.Params.description }}">
+
+<!-- CSS -->
+<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">

@@ -1,0 +1,32 @@
+[[items]]
+title = "Pengantar Analisis Pushover untuk Pemula"
+authors = "Unas Aleansa"
+type = "Blog Edukasi"
+year = "2024"
+doi = "10.1234/demo.001"
+description = "Artikel yang menjelaskan konsep dasar pushover analysis, langkah pemodelan di ETABS, dan interpretasi hasil untuk mahasiswa teknik sipil."
+citation = "APA: Unas, A. (2024). Pengantar Analisis Pushover untuk Pemula. Blog Edukasi. DOI: 10.1234/demo.001"
+badge_class = "publication-badge-type-blog"
+link = "#"
+
+[[items]]
+title = "Feature: Kesiapan Infrastruktur Kampus terhadap Bencana"
+authors = "Unas Aleansa, Tim Humas"
+type = "Humas Unmuh Jember"
+year = "2024"
+doi = "10.1234/demo.002"
+description = "Feature tentang upaya mitigasi risiko bencana di lingkungan kampus dan program pendidikan mitigasi untuk mahasiswa."
+citation = "IEEE: U. Aleansa and Tim Humas, \"Feature: Kesiapan Infrastruktur Kampus terhadap Bencana,\" Humas Unmuh Jember, 2024. DOI: 10.1234/demo.002"
+badge_class = "publication-badge-type-institution"
+link = "#"
+
+[[items]]
+title = "Skripsi (On Progress)"
+authors = "Unas Aleansa"
+type = "Repository Unmuh Jember"
+year = "2025"
+doi = "10.1234/demo.003"
+description = "Rencana publikasi tugas akhir yang akan diunggah ke repository kampus setelah selesai."
+citation = "APA: Unas, A. (2025). Perencanaan Struktur Tahan Gempa Gedung Hotel XYZ. Repository Unmuh Jember. DOI: 10.1234/demo.003"
+badge_class = "publication-badge-type-repo"
+link = "#"

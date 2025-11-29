@@ -1,0 +1,22 @@
+[[items]]
+date = "2023 - Sekarang"
+role = "Student Journalist & Documentation Specialist"
+company = "Humas Universitas Muhammadiyah Jember"
+description = "Menulis berita kampus, melakukan wawancara, serta mengelola dokumentasi foto dan video yang digunakan untuk publikasi resmi kampus."
+
+[[items]]
+date = "2022 - Sekarang"
+role = "Freelance — Kontraktor Teknik Transportasi"
+company = ""
+description = "Membantu perencanaan dasar proyek jalan dan drainase, pengukuran lapangan, dan dokumentasi teknis."
+
+[[items]]
+date = "2024 - Sekarang"
+role = "Content Creator"
+company = "MindFlicks (YouTube)"
+description = "Membangun channel short edukasi sains & teknologi berorientasi curiosity triggers; menulis script, riset, dan editing."
+
+[summary]
+text = "Dengan pengalaman kombinasi teknis dan komunikasi, saya mampu merancang analisis struktur dan juga menjelaskan hasil teknis kepada publik. Pengalaman di lapangan dan dokumentasi mendukung kemampuan manajemen proyek kecil hingga menengah."
+linkedin = "https://linkedin.com/in/username"
+resume = "resume.pdf"

@@ -1,0 +1,26 @@
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Unas Aleansa</h3>
+                <p>Mahasiswa Teknik Sipil — Rekayasa Gempa. Jurnalis Humas Unmuh Jember. Content Creator MindFlicks.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                {{ range .Site.Menus.main }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+                {{ end }}
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <a href="mailto:unasaleansa@gmail.com">Email</a>
+                <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+                <a href="https://github.com/username" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; {{ now.Format "2006" }} Unas Aleansa. All rights reserved.</p>
+            <p class="last-updated">Last updated: {{ now.Format "January 2, 2006" }}</p>
+        </div>
+    </div>
+</footer>
