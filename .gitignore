@@ -1,5 +1,5 @@
 # Hugo default output
-/public
+# /public  <-- Commented out to allow upload
 /resources
 .hugo_build.lock
 
